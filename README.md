@@ -6,8 +6,6 @@ This repository contains the source code for Mahmoud Khalil's portfolio website,
 
 - [Content](#content)
 - [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Content
