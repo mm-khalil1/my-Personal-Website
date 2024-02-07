@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Mahmoud Khalil</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li><a href="#skills" class="navigation__link">Skills</a></li>
+            <li><a href="#project" class="navigation__link">Projects</a></li>
+            <li>
+              <a href="#recommendations" class="navigation__link"
+                >Recommendations</a
+              >
+            </li>
+            <li><a href="#contact" class="navigation__link">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi there, I'm a Passionate Data Scientist
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Mahmoud Khalil</span>, an adept
+            data scientist, with a Master's in Electrical and Computer
+            Engineering.
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a
+            href="./Resume-Mahmoud Khalil.pdf"
+            class="bio__links find-out-link"
+            target="_blank"
+            >Download Resume <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="./images//personal-pic.png"
+            alt="image of Mahmoud Khalil"
+          />
+        </div>
+      </section>
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">Skills</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h3 class="skills__title">Python</h3>
+            <span class="skills__years">3 years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">C</h3>
+            <span class="skills__years">4 years</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">SQL</h3>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">HTML</h3>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">CSS</h3>
+            <span class="skills__years">1 year</span>
+          </li>
+          <li class="skills__item">
+            <h3 class="skills__title">JavaScript</h3>
+            <span class="skills__years">1 year</span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="project" class="projects section">
+        <h2 class="h2-heading">
+          Featured <br />
+          Projects
+        </h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="./images/project-1.jpg"
+            alt="Classification of Space Debris"
+          />
+          <div class="projects__data">
+            <h3 class="h3-heading">Classification of <br />Space Debris</h3>
+            <p class="projects__description">
+              Assembled time-series light curve dataset pertaining to space
+              objects, conducted in-depth analysis on the dataset, extracted
+              features, and subsequently categorized them by applying various
+              Machine Learning methods, with the utilization of dimensionality
+              reduction and oversampling techniques, within both Python and
+              MATLAB environments.
+            </p>
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3-heading">Visual Drone <br />Detection</h3>
+            <p class="projects__description">
+              Assembled a comprehensive dataset that encompassed different
+              directional movements of drones. This dataset was meticulously
+              organized and subsequently used to train CNN classifiers to detect
+              drone state. The training process encompassed both transfer
+              learning by fine-tuning of pretrained CNN architectures like
+              VGG16, ResNet50, and MobileNetV2, as well as the creation of deep
+              learning networks from scratch.
+            </p>
+          </div>
+          <img
+            class="projects__img"
+            src="./images/project-2.jpg"
+            alt="Visual Drone Detection"
+          />
+        </div>
+      </section>
+
+      <section
+        id="recommendations"
+        class="recommendations section section--with-bg"
+      >
+        <h2 class="h2-heading">
+          What My <br />
+          Supervisors Say
+        </h2>
+        <div class="recommendations__opinions">
+          <div class="recommendations__wrapper">
+            <p class="recommendations__opinion">
+              Mahmoud is very courteous, meticulous in his pursue of academic
+              matters and eager to further develop himself. He has excellent
+              communication skills and his reports are of high quality both in
+              terms of analysis and presentation.
+              <br /><br /><span class="recommendations__recommender"
+                >Panos Liatsis - Professor at Khalifa University</span
+              >
+            </p>
+            <p class="recommendations__opinion">
+              Mahmoud has been a very motivated student, eager to learn and
+              discover new things. He has, in particular, a great capacity for
+              fast assimilation and self-learning. He is also an exceptionally
+              engaging, exciting and warm person with tremendous strength of
+              character and integrity.
+              <br /><br /><span class="recommendations__recommender"
+                >Naoufel Werghi - Professor at Khalifa University</span
+              >
+            </p>
+            <p class="recommendations__opinion">
+              I was impressed with Mahmoud capabilities on several occasions. He
+              is a reliable person when it comes to meeting deadlines and
+              achieving deliverables. His English communication skills, both
+              verbal and in writing, are excellent. Based on my experience in
+              supervising graduate students in the last 18 years, I would
+              consider Eng. Khalil a person with a great potential.
+              <br /><br /><span class="recommendations__recommender"
+                >Munjed Maraqa - Professor at UAE University</span
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me at any time.
+          </p>
+          <a class="contact__email" href="mailto:mahmoudmkhalil@hotmail.com">
+            mahmoudmkhalil@hotmail.com
+          </a>
+
+          <div class="contact__socials">
+            <a
+              class="contact__social"
+              href="https://linkedin.com/in/mahmoudmkhalil"
+              target="_blank"
+            >
+              <img src="./images/brand/LinkedIn.svg" alt="icon of LinkedIn" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://github.com/mm-khalil1"
+              target="_blank"
+            >
+              <img src="./images/brand/github.svg" alt="icon of GitHub" />
+            </a>
+            <a
+              class="contact__social"
+              href="https://t.me/mm_khalil1"
+              target="_blank"
+            >
+              <img src="./images/brand/telegram.svg" alt="icon of Telegram" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contact__formContent">
+          <h2 class="h2-heading">Let's Work <br />Together</h2>
+
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                name="fullName"
+                required
+              />
+              <input
+                class="contact__input"
+                type="email"
+                placeholder="Email"
+                name="email"
+                required
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="message"
+              id="message"
+              rows="1"
+              required
+              placeholder="Your Message"
+            ></textarea>
+            <input class="contact__button" type="submit" />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2024 by Mahmoud Khalil</footer>
+    </div>
+  </body>
+</html>

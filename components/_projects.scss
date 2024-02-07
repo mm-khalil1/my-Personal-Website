@@ -1,0 +1,21 @@
+@import "./mixins";
+
+.projects__main {
+  display: grid;
+  @include columns($column-num: 2, $column-gap: 7.4rem, $row-gap: 7.5rem);
+}
+
+.projects__img {
+  max-width: 100%;
+  box-sizing: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.projects__data {
+  align-self: center;
+}
+
+.projects__description {
+  font-size: var(--font-size-18);
+  line-height: 1.5;
+  text-align: justify;
+}

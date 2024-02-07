@@ -1,0 +1,23 @@
+.recommendations__opinions {
+  /* grid-column: 1/-1; */
+  font-size: var(--font-size-30);
+  line-height: 1.7;
+}
+
+.recommendations__wrapper {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.recommendations__opinion {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  text-align: justify;
+}
+
+.recommendations__recommender {
+  font-size: var(--font-size-24);
+}

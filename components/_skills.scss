@@ -1,0 +1,27 @@
+@import "./mixins";
+
+.skills__list {
+  display: grid;
+  @include columns($column-num: 3, $row-gap: 5rem);
+  grid-column: 1/-1;
+}
+
+.skills__title {
+  font-size: var(--font-size-30);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.skills__years {
+  display: inline-block;
+  font-size: var(--font-size-20);
+  margin-top: 1rem;
+}
+
+.skills__item {
+  transition: var(--transition-timing);
+  user-select: none;
+}
+
+.skills__item:hover {
+  text-shadow: 0 0 2pc var(--color-green);
+}
