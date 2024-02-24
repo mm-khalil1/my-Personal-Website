@@ -2,12 +2,6 @@
 
 This repository contains the source code for Mahmoud Khalil's portfolio website, showcasing his skills, projects, and contact information. The website is built using HTML, CSS, and Sass.
 
-## Table of Contents
-
-- [Content](#content)
-- [Features](#features)
-- [License](#license)
-
 ## Content
 
 - **Bio Section:** Displays a brief introduction about myself.
